@@ -1,28 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.content{
-    width: 100%;
-    height: auto;
-    padding-top: 80px;
-    padding-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /* background: linear-gradient(19deg,#24d4fd 0%,#b721ff);  */
+.content {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background: linear-gradient(19deg,#24d4fd 0%,#b721ff);  */
 }
 
-
-h1{
+h1 {
   color: black;
   margin: 15px;
   font-family: Oswald;
 }
 
-input{
+input {
   width: 300px;
   height: 40px;
   background: none;
@@ -38,103 +37,117 @@ input{
 /* =================== BUTTON CSS ============================ */
 
 .bn632-hover {
-    width: 160px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-    margin: 20px;
-    height: 55px;
-    text-align:center;
-    border: none;
-    background-size: 300% 100%;
-    border-radius: 50px;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-  }
-  
-  .bn632-hover:hover {
-    background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-  }
-  
-  .bn632-hover:focus {
-    outline: none;
-  }
-  
-  .bn632-hover.bn18 {
-    background-image: linear-gradient(
-      to right,
-      #25aae1,
-      #40e495,
-      #30dd8a,
-      #2bb673
-    );
-    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
-  }
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn18 {
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #40e495,
+    #30dd8a,
+    #2bb673
+  );
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
 
 /* ================================== BUTTIN CSS END ================================= */
 
-#qrcode{
+#qrcode {
   /* margin-top: 30px; */
   width: 200px;
 }
 
-#nav-text{
+#nav-text {
   color: black;
   font-family: Oswald;
   display: inline-block;
 }
 
-.nav-back{
-  background-color: hsl(280, 99%, 74%) ;
+.nav-back {
+  /* background-color: hsl(280, 99%, 74%); */
+  display: flex;
+  flex-direction: column;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+
   padding: 20px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#afterbtn{
+#afterbtn {
   margin-top: 25px;
 }
 
 /* ===========  DB =========== */
 #down {
-    background-color: DodgerBlue;
-    border: none;
-    color: white;
-    padding: 12px 30px;
-    cursor: pointer;
-    font-size: 20px;
-    display: none;
-  }
-  
-  /* Darker background on mouse-over */
-  #down:hover {
-    background-color: RoyalBlue;
-  }
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  display: none;
+}
+
+/* Darker background on mouse-over */
+#down:hover {
+  background-color: RoyalBlue;
+}
 /* ==============  DB END  ======== */
 
-#qrsec{
+#qrsec {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-
-#foot{
+#foot {
   margin-bottom: 100px;
 }
 
-
-
 /* ================================================ */
 /* ================================================ */
-
-
+body {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
