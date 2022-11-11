@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live QR Code Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="nav-back">
+      <h1 id="nav-text">Text to QR Converter</h1>
+    </nav>
+
+    <div class="content">
+      <h1>Paste the link below</h1>
+      <input type="text" name="" id="input" autocomplete="off" />
+      <button class="bn632-hover bn18" onclick="func()" id="submit">
+        Generate QR
+      </button>
+    </div>
+
+    <div id="qrsec">
+      <!-- <img src="" alt="" id="img" /> -->
+      <canvas id="qrcode"></canvas>
+
+      <div id="afterbtn">
+        <button id="down" onclick="downloader()">
+          <i class="fa fa-download" ></i>Download QR
+        </button>
+      </div>
+
+    </div>
+    
+    <footer id="foot">
+
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

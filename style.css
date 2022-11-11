@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: linear-gradient(19deg,#24d4fd 0%,#b721ff);  */
+}
+
+
+h1{
+  color: black;
+  margin: 15px;
+  font-family: Oswald;
+}
+
+input{
+  width: 300px;
+  height: 40px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid black;
+  margin: 15px;
+  outline: none;
+  font-size: 1.2rem;
+  color: black;
+  padding: 0 10px;
+}
+
+/* =================== BUTTON CSS ============================ */
+
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn18 {
+    background-image: linear-gradient(
+      to right,
+      #25aae1,
+      #40e495,
+      #30dd8a,
+      #2bb673
+    );
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+  }
+
+/* ================================== BUTTIN CSS END ================================= */
+
+#qrcode{
+  /* margin-top: 30px; */
+  width: 200px;
+}
+
+#nav-text{
+  color: black;
+  font-family: Oswald;
+  display: inline-block;
+}
+
+.nav-back{
+  background-color: hsl(280, 99%, 74%) ;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#afterbtn{
+  margin-top: 25px;
+}
+
+/* ===========  DB =========== */
+#down {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    display: none;
+  }
+  
+  /* Darker background on mouse-over */
+  #down:hover {
+    background-color: RoyalBlue;
+  }
+/* ==============  DB END  ======== */
+
+#qrsec{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+#foot{
+  margin-bottom: 100px;
+}
+
+
+
+/* ================================================ */
+/* ================================================ */
+
+
